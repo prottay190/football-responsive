@@ -2,8 +2,7 @@
 defualt css
 ------ */
 body{
-  margin: 0;
-  padding: 0;
+  width: 1366px ;
   font-family: 'Poppins', sans-serif;  
 }
 /* -----
@@ -30,7 +29,7 @@ fonts
 }
 .top-header-content h1{
     color: #fff; 
-    font-size: 64px; 
+    font-size: 65px; 
     margin-bottom: 18px;
 }
 .header-button{
@@ -39,7 +38,6 @@ fonts
     color: #fff;
     display: inline-block;
     padding: 10px 24px;
-    border-radius: 5px;
 }
 .header-button a{
     text-decoration: none;
@@ -53,4 +51,43 @@ fonts
     margin:152px 140px 86px 23px;
     overflow: hidden;
     transition: transform .5s ease-in-out;
+}
+/*----------- ---------------------
+top players section css
+------------------------------------  */
+.container{
+    background: #fff;
+    padding: 30px ;
+    margin-top: 21px;
+    border-radius: 5px;   
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    margin-right: 30px;
+    padding: 15px;
+}
+.player h2{
+    font-size: 28px;
+    color: #18191F;
+    font-weight: 700;
+}
+.player p{
+    font-size: 16px;
+    color: #6C6C6C;
+    line-height: 26px;
+}
+.player img{
+     width: 99%; 
 }
