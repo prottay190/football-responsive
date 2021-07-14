@@ -91,3 +91,34 @@ main{
 .player img{
      width: 99%; 
 }
+/* ------------------------
+footer section css
+ -------------------------- */
+ .main-footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ .footer-logo{
+     margin-top: 165px;
+ }
+ .footer-logo img{
+     width: 300px;
+    font-size: 72px;
+    
+ } 
+ .footer-icon .fab{
+       background: #ddd;
+       color: #767676;
+       padding: 6px 8px;
+       border-radius: 50%;
+       margin-right: 14px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+       position: relative;
+       left: 10px;
+ }
+ .footer-bottom{
+     font-size: 18px;
+     margin-bottom: 63px;
+ }
